@@ -1,0 +1,32 @@
+{
+  "type": "module",
+  "name": "cs5610-server-node",
+  "version": "1.0.0",
+  "description": "Node.js HTTP Web server for the Tuiter application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kexinqiu/cs5610-server-node.git"
+  },
+  "keywords": [
+    "node",
+    "rest",
+    "server",
+    "http"
+  ],
+  "author": "kexinqiu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kexinqiu/cs5610-server-node/issues"
+  },
+  "homepage": "https://github.com/kexinqiu/cs5610-server-node#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}
